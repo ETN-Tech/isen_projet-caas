@@ -1,0 +1,137 @@
+/* CSS */
+.navbar {
+    background: linear-gradient(90deg, hsla(192, 59%, 43%, 1) 0%, hsla(191, 63%, 54%, 1) 100%);
+    padding: 0.5rem 2rem;
+}
+
+.navbar-brand {
+    display: flex;
+    margin: 0.2rem 2rem 0.2rem 0 !important;
+}
+.navbar-brand svg {
+    margin: 0.2rem 0.2rem 0 0;
+}
+.navbar-brand .brand-main {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+.navbar-brand .brand-lead {
+    display: block;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+    transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
+.bd-masthead {
+    position: relative;
+    padding: 9rem 15px 6rem 15px;
+}
+.bd-masthead h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.bd-masthead .lead {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #495057;
+}
+
+.bd-content {
+    padding: 8rem 15px 5rem 15px;
+}
+
+.up-content {
+    margin: 1rem 15px 5rem 55px;
+}
+.up-title {
+    position: relative;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.up-title:before {
+    content: '#';
+    font-size: 5rem;
+    position: absolute;
+    top: -10px;
+    left: -55px;
+}
+.up-title:after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    bottom: 0;
+    width: 60px;
+    height: 6px;
+    background: var(--dark);
+}
+.up-lead {
+    color: var(--info);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+.up-text {
+    font-size: 1.2rem;
+}
+
+.home-center {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+.home-center-content {
+    width: 100%;
+    margin: auto;
+}
+.home-center-content h1 {
+    font-size: 4rem;
+}
+.home-center-content p {
+    font-size: 1.5rem;
+}
+
+.bd-footer {
+    font-size: .875rem;
+    background-color: #f7f7f7;
+}
+.bd-footer a {
+    font-weight: 600;
+    color: #495057;
+}
+.bd-footer p {
+    margin-bottom: 0;
+}
+
+.bd-footer-links {
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+.bd-footer-links li {
+    display: inline-block;
+}
+.bd-footer-links li+li {
+    margin-left: 1rem;
+}
+
+
+.icon-text {
+    vertical-align: initial;
+}
+img {
+    max-width: 100%;
+}
